@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tidyboxes privacy policy</title>
+<meta name="description" content="Tidyboxes collects no data and has no account. Your files never leave your PC.">
+<!-- Source of the public privacy page for Tidyboxes. Self-contained: no external files, fonts or scripts.
+     When you change it, copy it to the public web host again (see docs\STORE-SETUP.md, "Privacy policy URL"). -->
+<style>
+  :root { --ink:#1c1d2b; --soft:#5d6072; --bg:#f6f6fb; --brand:#5b5bd6; --card:#ffffff; --line:#e1e2ee; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#ececf6; --soft:#a9acc0; --bg:#13131c; --brand:#a9b1ff; --card:#1c1c28; --line:#2e2f40; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.6 "Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:48px 20px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom:6px; }
+  header svg { width:56px; height:56px; flex:none; }
+  h1 { margin:0; font-size:32px; line-height:1.15; color:var(--brand); }
+  h2 { margin:32px 0 4px; font-size:19px; }
+  p, li { margin:6px 0; }
+  ul { padding-left:22px; margin:6px 0; }
+  code { font:15px/1.4 Consolas,"Cascadia Mono",monospace; overflow-wrap:anywhere; }
+  .soft { color:var(--soft); font-size:15px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 20px; margin:22px 0; }
+  a { color:var(--brand); }
+  @media (max-width:480px) { main { padding:32px 16px; } h1 { font-size:26px; } header svg { width:44px; height:44px; } }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="0 0 100 100" aria-hidden="true">
+      <rect x="4" y="4" width="92" height="92" rx="22" fill="#5B5BD6"/>
+      <rect x="20" y="22" width="28" height="56" rx="7" fill="#fff"/>
+      <rect x="54" y="22" width="26" height="25" rx="7" fill="#fff"/>
+      <rect x="54" y="53" width="26" height="25" rx="7" fill="#fff"/>
+      <rect x="25" y="28" width="14" height="4" rx="2" fill="#5B5BD6"/>
+      <rect x="59" y="28" width="12" height="4" rx="2" fill="#5B5BD6"/>
+      <rect x="59" y="59" width="12" height="4" rx="2" fill="#5B5BD6"/>
+    </svg>
+    <h1>Tidyboxes privacy policy</h1>
+  </header>
+  <p class="soft">Tidyboxes: Desktop Organizer, by PaperKite. Effective 26 November 2026.</p>
+
+  <div class="card"><strong>Tidyboxes doesn't collect any data, and your files never leave your PC.</strong>
+    There's no account, no analytics or telemetry, and no ads. Tidyboxes goes online for only two things: the Microsoft
+    Store, to sell and confirm Tidyboxes Pro, and, only if you sort photos by place or by trip, a free map service that
+    turns a rough location into a place name.</div>
+
+  <h2>Network use</h2>
+  <p>Everything in Tidyboxes works offline except the two things below. It never sends your files, their names or
+  contents, or anything about you or your desktop
+  anywhere.</p>
+
+  <h2>1. The Microsoft Store</h2>
+  <p>The Microsoft Store's own purchase system is used to buy or restore Tidyboxes Pro and, now and then, to check whether
+  your Windows account owns Pro. That check carries no information about you or how you use Tidyboxes. Microsoft
+  handles purchases under the <a href="https://privacy.microsoft.com/privacystatement">Microsoft Privacy Statement</a>;
+  Tidyboxes never sees your payment details. Once confirmed, Pro is remembered on your PC, so it keeps working offline.</p>
+
+  <h2>2. Place names for photos (only if you choose it)</h2>
+  <p>When you tidy a folder <strong>by place</strong>, <strong>by country</strong> or <strong>by trip or event</strong>,
+  Tidyboxes reads the location your camera or phone saved inside your photos, on your PC. To name the place (say,
+  "Lisbon, Portugal"), it sends a rough location, the middle of a group of photos rounded to about 1 km, to
+  OpenStreetMap's Nominatim service (<code>nominatim.openstreetmap.org</code>), run by the OpenStreetMap Foundation.
+  Nothing else is sent: not your photos, their names or dates, nor anything about you. Each area of about 10 km is
+  looked up once, and the name is remembered on your PC, so the same area is never asked about again.</p>
+  <p>As with any website, the service sees your internet address when Tidyboxes asks; its own
+  <a href="https://osmfoundation.org/wiki/Privacy_Policy">privacy policy</a> covers that. If you never sort by place or by
+  trip, nothing is sent. Place names are &copy; OpenStreetMap contributors, available under the Open Database Licence.</p>
+
+  <h2>What Tidyboxes looks at to work</h2>
+  <p>To show and tidy your desktop, Tidyboxes reads the names, types, dates and icons of the files on your desktop, and
+  where the icons sit. When you tidy another folder (Pro), it reads the same about the files in that folder and,
+  depending on how you choose to sort: the date a photo was taken, where and with which camera; which website a download
+  came from (from the note Windows keeps with each download); a song's artist and album; who wrote a document; the first
+  page of a document's text, to tell an invoice from a payslip (scanned PDFs are read by Windows' own text recognition);
+  the names of the apps installed on your PC, to spot installers you no longer need; and the contents of files, to spot
+  exact copies. It uses all of this only on your PC, to do what you ask, and never shares or stores it, except the rough
+  location described above when you sort by place or by trip.</p>
+
+  <h2>What stays on your PC</h2>
+  <p>Tidyboxes keeps a few small files of its own in <code>%LocalAppData%\Tidyboxes</code>:</p>
+  <ul>
+    <li>your settings and shortcuts,</li>
+    <li>your list of boxes, your rules and your saved layouts,</li>
+    <li>the folders you've tidied and how you chose to sort them,</li>
+    <li>place names already looked up for photo locations, so each area is only asked about once,</li>
+    <li>a tidy history, so "Undo tidy" can put every file back where it was,</li>
+    <li>an encrypted licence record, so Tidyboxes Pro works offline,</li>
+    <li>a small safety record and a local log of errors, to help put things right after a crash.</li>
+  </ul>
+  <p>They are never sent anywhere. Windows removes them when you uninstall Tidyboxes.</p>
+
+  <h2>Your files</h2>
+  <p>Tidyboxes never deletes or overwrites your files. A file in a box is moved into a plain folder inside your own
+  Desktop folder: <code>Desktop\Tidyboxes\&lt;box name&gt;</code>. Your files are not stored anywhere else and are
+  never uploaded. When you tidy another folder, like Downloads, its files are moved into folders inside that same
+  folder, and "Undo" or "Put it back" returns them.</p>
+  <p>Microsoft Store apps can't run anything while they're being uninstalled, so your files <strong>stay</strong> in
+  the Tidyboxes folder on your desktop after you uninstall. Nothing is lost. If you'd like your desktop exactly as it
+  was, choose <strong>Settings &gt; Tidy &amp; rules &gt; "Put everything back on the desktop"</strong> before
+  uninstalling. A note in that folder ("What is this folder.txt") explains how to put things back by hand.</p>
+
+  <h2>Children</h2>
+  <p>Tidyboxes collects no information from anyone, including children.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy ever changes, the new version will appear here with a new date. Questions are welcome:
+  contact PaperKite via the support link on the Microsoft Store page for Tidyboxes.</p>
+</main>
+</body>
+</html>
